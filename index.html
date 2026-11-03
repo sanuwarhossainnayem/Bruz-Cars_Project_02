@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruz_project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main>
+      <header class="w-full bg-black">
+        <nav
+          class="max-w-480 mx-auto w-[90%] py-2 flex justify-between items-center text-white sticky"
+        >
+          <img src="assets/logo.webp" class="w-15 bg-black/50" alt="Logo" />
+          <div class="flex gap-12">
+            <ul class="flex items-center gap-12 cursor-pointer text-xl">
+              <li>Home</li>
+              <li>Our Offering</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <button
+            class="cursor-pointer text-black font-bold text-xl border border-[#FFB121] py-2 px-5 rounded-xl bg-[#FFB121]"
+          >
+            Contact Us
+          </button>
+        </nav>
+      </header>
+
+      <section
+        class="relative w-full h-105 md:h-125 overflow-hidden flex items-center justify-center"
+      >
+        <img
+          src="assets/banner1.webp"
+          alt="Safe and reliable transportation"
+          class="absolute inset-0 w-full h-full object-cover object-center"
+        />
+
+        <div class="relative z-10 text-center px-4 max-w-7xl mx-auto">
+          <h1
+            class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-6"
+          >
+            Safe, Reliable, and Ethical Transportation at Your Fingertips.
+          </h1>
+
+          <button
+            class="text-black text-1xl font-bold px-5 py-2.5 rounded-full transition duration-300 bg-[#FFB121] border border-[#FFB121]"
+          >
+            Register Your Interest
+          </button>
+        </div>
+      </section>
+
+      <!-- Offer Section -->
+      <section class="px-4 py-8 md:px-8">
+        <h2 class="text-center text-3xl font-bold text-black mb-6">
+          Our Offering
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="relative h-70 rounded-lg group cursor-pointer">
+            <img
+              src="assets/offer1.webp"
+              alt="Book a ride"
+              class="w-full h-full object-cover"
+            />
+
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 bg-black/50"
+            >
+              <h3 class="text-2xl font-bold text-white">Book A Ride</h3>
+              <p class="text-white text-sm mt-1">
+                Safe and trusted transportation, anytime, anywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="relative h-70 rounded-lg group cursor-pointer">
+            <img
+              src="assets/offer2.webp"
+              alt="Book a delivery"
+              class="w-full h-full object-cover"
+            />
+
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 bg-black/50"
+            >
+              <h3 class="text-2xl font-bold text-white">Book A Delivery</h3>
+              <p class="text-white text-sm mt-1">
+                Reliable delivery solutions for groceries, parcels, and
+                corporate needs.
+              </p>
+            </div>
+          </div>
+
+          <div class="relative h-70 rounded-lg group cursor-pointer">
+            <img
+              src="assets/offer3.webp"
+              alt="Hire a car"
+              class="w-full h-full object-cover"
+            />
+
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 bg-black/50"
+            >
+              <h3 class="text-2xl font-bold text-white">Hire a Car</h3>
+              <p class="text-white text-sm mt-1">
+                Flexible car hire options for long-term and short-term use.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="px-4 py-8 md:px-8">
+        <h2 class="text-center text-3xl font-bold text-black mb-6">About Us</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div class="w-full">
+            <img
+              src="assets/aboutVideo.webp"
+              alt="Our transportation service"
+              class="w-full h-87.5 md:h-100 object-cover rounded-lg cursor-pointer"
+            />
+          </div>
+
+          <div class="w-full">
+            <h3 class="text-xl font-bold text-black mb-4">
+              Our Guiding Principles
+            </h3>
+
+            <p class="text-base text-black leading-relaxed mb-4">
+              We are a company founded on the principles of ethics, trust, and
+              family values, striving to make transportation not just a service,
+              but a positive experience for everyone. Inspired by a family
+              legacy that has always championed care, integrity, and community
+              support, we aim to bring those values to modern transportation.
+            </p>
+
+            <p class="text-base text-black leading-relaxed">
+              Our mission is simple yet profound: to provide safe, reliable, and
+              ethical transportation services that you can depend on every day.
+              Safety is at the heart of everything we do. That’s why we go the
+              extra mile to rigorously vet our drivers through comprehensive
+              background checks, professional training, and continuous
+              evaluations. When you choose us, you can travel with confidence,
+              knowing that your well-being is our top priority.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+      <section class="px-4 py-8 md:px-8">
+        <h2 class="text-center text-3xl font-bold text-black mb-6">Our Team</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div
+            class="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100"
+          >
+            <img
+              src="assets/team1.webp"
+              alt="Alex Gibson"
+              class="w-full h-55 object-cover object-center cursor-pointer"
+            />
+
+            <div class="px-3 py-2">
+              <h3 class="text-sm font-bold text-black">Alex Gibson</h3>
+              <p class="text-xs text-black mt-1">Founder</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100"
+          >
+            <img
+              src="assets/team2.webp"
+              alt="Sarah Johnson"
+              class="w-full h-55 object-cover object-center cursor-pointer"
+            />
+
+            <div class="px-3 py-2">
+              <h3 class="text-sm font-bold text-black">Sarah Johnson</h3>
+              <p class="text-xs text-black mt-1">Designer</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100"
+          >
+            <img
+              src="assets/team3.webp"
+              alt="Mark Davis"
+              class="w-full h-55 object-cover object-center cursor-pointer"
+            />
+
+            <div class="px-3 py-2">
+              <h3 class="text-sm font-bold text-black">Mark Davis</h3>
+              <p class="text-xs text-black mt-1">Developer</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100"
+          >
+            <img
+              src="assets/team4.webp"
+              alt="Emily Thompson"
+              class="w-full h-55 object-cover object-center cursor-pointer"
+            />
+
+            <div class="px-3 py-2">
+              <h3 class="text-sm font-bold text-black">Emily Thompson</h3>
+              <p class="text-xs text-black mt-1">Product Manager</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+          <section>
+            <div class="text-center py-2">
+              <h2 class="text-3xl font-bold">
+                What Our Customers Say About Us
+              </h2>
+            </div>
+
+            <div
+              class="bg-[#fffaed] h-80 flex flex-col items-center justify-center text-center px-5 m-5">
+
+              <h3 class="text-sm font-bold leading-5.75racking-tight">
+                Love the simplicity of the service and the prompt customer
+                support.<br/>
+                We can’t imagine working without it.
+              </h3>
+
+              <div class="mt-4.5">
+                <img src="https://i.pravatar.cc/100?img=47" alt="Kelly Williams" class="w-8 h-8ded-full object-cover mx-auto"/>
+              </div>
+
+              <h4 class="text-[15px] font-bold mt-2">Kelly Williams</h4>
+              <p class="text-[10px] text-[#555555] mt-2">
+                Head of Design Layers
+              </p>
+
+              <div class="flex items-center justify-center gap-0.5 text-[#FEC84B] text-[12px]">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="px-4 pt-28 pb-6">
+            <div class="grid grid-cols-2 gap-10">
+              <div class="pt-0.5">
+                <h2
+                  class="text-[25px] font-bold tracking-tight leading-7.5">
+                  Frequently asked questions
+                </h2>
+
+                <p
+                  class="text-[9px] text-[#3D3D3D] leading-3.75t-[6px] max-w-92.5">
+                  Everything you need to know about the product and billing.
+                  Can't find the answer you're looking for? Please chat to our
+                  friendly team.
+                </p>
+              </div>
+
+              <div class="flex flex-col gap-2 leading-2.5">
+                <div
+                  class="bg-[#f7f8fa] rounded-[9px] px-4 py-3.5">
+
+                  <button
+                    class="flex items-center gap-2.75 w-full text-left"
+                    onclick="toggleFAQ(this)">
+                    <span
+                      class="text-[15px] font-medium leading-none">
+                    </span>
+
+                    <span class="text-[12px] font-bold text-black">
+                      Is there a free trial available?
+                    </span>
+                  </button>
+
+                  <div class="pl-5.5 mt-1.75">
+                    <p class="text-[9px] text-[#667085] leading-3.75">
+                      Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute <br> onboarding call to get you up and running as soon as possible.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="px-4 py-3.5 text-[12px] font-bold text-black">
+                  <h4>Can I change my plan later?</h4>
+                </div>
+
+                <div class="px-4 py-3.5 text-[12px] font-bold text-black">
+                  <h4>What is your cancellation policy?</h4>
+                </div>
+
+                <div class="px-4 py-3.5 text-[12px] font-bold text-black">
+                  <h4>Can other info be added to an invoice?</h4>
+                </div>
+
+
+                <div class="px-4 py-3.5 text-[12px] font-bold ttext-black">
+                  <h4>How does billing work?</h4>
+                </div>
+
+
+                <div class="px-4 py-3.5 text-[12px] font-bold text-black">
+                  <h4>How do I change my account email?</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      
+        <section class="bg-[#f7f8fa] h-71.75 overflow-hidden">
+          <div class="max-w-300 mx-auto h-full px-12.5 flex items-center justify-between">
+            <div class="w-[55%]">
+              <h1 class="text-[21px] font-extrabold leading-7.25 tracking-tight">Safe and Reliable Transportation<br>Made Simple
+            </h1>
+
+            <p class="text-[10px] text-[#333333] leading-4 mt-3 max-w-100"> Join Bruz Cars today and experience convenience like never before.
+          Your trusted partner for rides, deliveries, and car hire.
+        </p>
+
+        <div class="flex items-center gap-2 mt-8">
+        
+        </div>
+        </div>
+
+        <div class="w-[45%] h-full flex justify-center items-start pt-11.75">
+            <img src="assets/smartPhone.webp" alt="Bruz Cars Mobile App" class="w-37.5 h-auto object-contain">
+               </div>
+          </div>
+          </section>
+
+
+      <footer class="bg-black text-white h-42.5">
+        <div class="max-w-300 mx-auto px-3.75 h-full">
+         <div class="flex justify-center pt-1.5">
+
+            <a href="#">
+             <img src="assets/logo.webp" alt="Bruz Cars Logo" class="w-14.5 h-14.5 object-contain m-3">
+            </a>
+         </div>
+
+        <nav class="flex justify-center items-center gap-3 mt-5">
+           <a href="" class="text-[10px] font-medium">
+              Link One
+            </a>
+
+            <a href="" class="text-[10px] font-medium">
+            Link Two
+            </a>
+
+            <a href="" class="text-[10px] font-medium">
+              Link Three
+            </a>
+
+            <a href="" class="text-[10px] font-medium">
+              Link Four
+            </a>
+
+            <a href="" class="text-[10px] font-medium">
+              Link Five
+            </a>
+        </nav>
+
+
+          <div class="border-t border-[#555555] mt-3"></div>
+          <div class="flex items-center justify-between pt-4.5">
+
+            <p class="text-[10px] font-medium -m-4">
+              © 2024 Bruz. All rights received
+            </p>
+
+          </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
